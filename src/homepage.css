@@ -1,0 +1,50 @@
+/* PROFILE ICON */
+.profile-container {
+  position: relative;
+}
+
+.profile-icon {
+  width: 38px;
+  height: 38px;
+  background-color: #ffffff;
+  color: #007bff;
+  border-radius: 50%;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  background: white;
+  padding: 12px 15px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 150px;
+}
+
+.dropdown-username {
+  margin: 0;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
+
+.logout-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #d60000;
+}

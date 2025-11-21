@@ -1,0 +1,242 @@
+/* =============================
+   GLOBAL STYLES
+============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* =============================
+   NAVBAR
+============================= */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  position: sticky;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(6px);
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #00eaff;
+}
+
+/* =============================
+   SECTIONS
+============================= */
+.section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+/* =============================
+   HOME SECTION
+============================= */
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.home h1 span {
+  color: #00eaff;
+}
+
+.home p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/* =============================
+   PROJECT CARDS
+============================= */
+.project-card {
+  background: #111;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,255,255,0.1);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0,255,255,0.3);
+}
+
+.project-card ul {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.project-card li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card a {
+  color: #00eaff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* =============================
+   SKILLS GRID
+============================= */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.skills-grid span {
+  background: #111;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  transition: 0.3s;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+.skills-grid span:hover {
+  background: #00eaff;
+  color: #000;
+  transform: translateY(-3px);
+}
+
+/* =============================
+   CERTIFICATE CARDS
+============================= */
+.cert-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cert-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.25s;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0,255,255,0.1);
+}
+
+.cert-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(0,255,255,0.4);
+}
+
+.cert-card h3 {
+  margin-bottom: 8px;
+}
+
+.cert-card a {
+  color: #00eaff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cert-card a:hover {
+  text-decoration: underline;
+}
+
+/* =============================
+   ANIMATIONS
+============================= */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.fade-in.delay-1 {
+  animation-delay: 0.5s;
+}
+
+.fade-in.delay-2 {
+  animation-delay: 1s;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(25px);
+  animation: slideUp 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =============================
+   MOBILE RESPONSIVE
+============================= */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* You can convert this to a hamburger menu later */
+  }
+
+  .home h1 {
+    font-size: 34px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+  }
+}
