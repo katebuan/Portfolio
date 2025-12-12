@@ -94,15 +94,15 @@ function App() {
       {/* CONTACT SECTION */}
       <section id="contact" className="section">
         <h2>Contact</h2>
-        <p>Email: <strong>your.email@gmail.com</strong></p>
+        <p>Email: <strong>buankate8@gmail.com</strong></p>
         <p>
           GitHub: 
           <a 
-            href="https://github.com/YOUR_USERNAME" 
+            href="https://github.com/katebuan" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            github.com/YOUR_USERNAME
+            github.com/katebuan
           </a>
         </p>
       </section>
