@@ -29,21 +29,15 @@ function App() {
         <h2>My Projects</h2>
 
         <div className="project-card slide-up">
-          <h3>Task Manager System (CRUD + Auth)</h3>
-          <p>A full-stack system built using Django, ReactJS, and React Native.</p>
+          <h3>Ypu can view my projects here.</h3>
+          <p>A full-stack system built using ReactJS, and React Native.</p>
 
           <ul>
-            <li>🔗 Web App (React): 
-              <a href="YOUR_WEBAPP_LINK" target="_blank" rel="noopener noreferrer">View</a>
+            <li>🔗 Web CRUD App (ReactJS): 
+              <a href="https://crudweb-three.vercel.app/" target="_blank" rel="noopener noreferrer">View</a>
             </li>
-            <li>🔗 Backend API (Django): 
-              <a href="YOUR_BACKEND_LINK" target="_blank" rel="noopener noreferrer">View API</a>
-            </li>
-            <li>🔗 Mobile App (React Native APK): 
-              <a href="YOUR_APK_LINK" target="_blank" rel="noopener noreferrer">Download</a>
-            </li>
-            <li>🗂️ GitHub Repository: 
-              <a href="YOUR_GITHUB_REPO" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <li>🔗 Mobile CRUD App (React Native): 
+              <a href="https://mobilecrud.vercel.app/" target="_blank" rel="noopener noreferrer">View</a>
             </li>
           </ul>
         </div>
@@ -73,21 +67,15 @@ function App() {
         <div className="cert-grid">
 
           <div className="cert-card fade-in">
-            <h3>Web Development Certificate</h3>
-            <p>Issued by: Example Academy</p>
-            <a href="CERTIFICATE_LINK_1" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <h3>Network Support and Security</h3>
+            <p>Issued by: Cisco</p>
+            <a href="https://www.credly.com/badges/a67ded51-8ff5-459f-9ad1-c88c6e1a4362/public_url" target="_blank" rel="noopener noreferrer">View Certificate</a>
           </div>
 
           <div className="cert-card fade-in delay-1">
-            <h3>Python Programming Certificate</h3>
-            <p>Issued by: Example Institute</p>
-            <a href="CERTIFICATE_LINK_2" target="_blank" rel="noopener noreferrer">View Certificate</a>
-          </div>
-
-          <div className="cert-card fade-in delay-2">
-            <h3>Mobile Development Training</h3>
-            <p>Issued by: Sample Training Center</p>
-            <a href="CERTIFICATE_LINK_3" target="_blank" rel="noopener noreferrer">View Certificate</a>
+            <h3>JavaScript Essentials 1 Certificate</h3>
+            <p>Issued by: Cisco</p>
+            <a href="https://www.credly.com/badges/84891770-050f-41fa-9b11-50adcfa4c122/public_url" target="_blank" rel="noopener noreferrer">View Certificate</a>
           </div>
 
         </div>
